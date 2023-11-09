@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>ALBERGUE PERLITA</title>
-    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     <nav>
@@ -24,7 +25,54 @@
             <li><a href="#">Voluntariado</a></li>
             <li><a href="#">Acerca de Nosotros</a></li>
         </ul>
-</nav>
+    </nav>
+
+    <main>
+        <section class="section portadaPrincipal1">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/img/carrusel1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3 class="txt">Juntos, podemos cambiar el destino de los animales</h3>
+                      <p class="txt">Ayúdanos a darles a estos animales una segunda oportunidad</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/carrusel2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3 class="txt">Los latidos de sus patitas esperan un hogar cálido</h3>
+                      <p class="txt">Únete a nosotros para darles una vida mejor.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/carrusel3.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3 class="txt">Nuestra misión construir un mundo donde ningún ser se sienta abandonado</h3>
+                      <p> class="txt"No lo pienses mas, ¡Únete a nuestra causa!</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
 </body>
 <footer class="pie-pagina">
     <div class="grupo-1">
@@ -53,6 +101,7 @@
     <div class="grupo-2">
         <small>&copy; 2023 <b>ALBERGUE PERLITA</b> - Todos los Derechos Reservados.</small>
     </div>
+
 </footer>
 
 </html>

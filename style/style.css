@@ -109,9 +109,73 @@ section{
     }
 }
 
+/****************** PORTADA  ****************************/ 
+.txt {
+    color:  #d7d118 !important;
+    background-color:#009ac6;
+    border-radius: 15px;
+}
+
+/****************** BODY **********************/
+
+.portadaPrincipal1 {
+    width:100%; /* Ancho deseado para la sección */
+    height:auto !important; /* Alto deseado para la sección */
+    border: 1px solid #ccc; /* Borde opcional para visualización */
+    overflow: hidden; 
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+*/
+main {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(0, 1fr); 
+    gap: 20px; 
+    max-width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.section {
+    height: 30%;
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+}
 
 
+.section + .section {
+    margin-top: 20px;
+}
 
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.section {
+    height: 382px;
+    display: flex;
+    padding: 25px;
+
+    border-radius: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
 
 
 
