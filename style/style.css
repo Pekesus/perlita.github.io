@@ -251,7 +251,7 @@ p {
   }
   
   .card:hover:after {
-    background-image: url(img/ALBERGUE\ LOGO.jpeg);
+    background-image: url(img/logo.jpeg);
     height: 70%;
     content: "";
     opacity: 1;
