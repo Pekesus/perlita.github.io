@@ -8,7 +8,7 @@
 }
 
 main {
-    background-image: url('/img/textura5.png'); 
+    background-image: url('img/textura5.jpg'); 
     background-repeat: repeat; 
     background-position: center;
     }
@@ -344,18 +344,20 @@ p {
 
 /************ iconos redes ****************************/
 .facebook { 
-   background: url(https://github.com/Pekesus/perlita.github.io/blob/main/img/facebook.png);
+   background: url(img/facebook.jpg);
    background-size: cover;
 }
 .instagram { 
-    background: url(../img/instagram.png);
+    background: url(img/instagram.jpg);
     background-size: cover;
  }
  .twiter { 
-    background: url(../img/twiter.png);
+    background: url(img/twiter.jpg);
     background-size: cover;
  }
  .tiktok { 
-    background: url(../img/tik\ tok.png);
+    background: url(img/tik\ tok.jpg);
     background-size: cover;
  }
+
+
