@@ -1,0 +1,80 @@
+.seccion{
+    display: flex;
+    margin: 0px;
+  padding: 0px;
+  }
+    .articulos{
+        margin: 10px;
+        flex: 2 1 auto;
+        display: flex;	/*uno a lado del otro*/
+        flex-flow: row wrap; 
+    }
+        .donacion{
+          background: #f8f5df;  
+          flex: 1 1 30%;
+          margin: 8px;
+          padding: 0px;
+        }
+            .donacion img{
+            width: 100%;
+            height: 100%;
+            }
+        .article{
+          background: #f8f5df;  
+            flex: 1 1 35%;
+            margin: 8px;
+          padding: 7px;
+        }
+        .article h2 {
+            font-size: 26px; 
+            color: #009ac6;
+        }
+        
+        .article p {
+            font-size: 18px; 
+        }
+        
+        .botones-apoyo {
+          display: flex;
+          flex-wrap: wrap;
+      }
+  
+      button {
+        background-color: #a8ddf5; 
+        color: rgb(8, 8, 8); 
+        padding: 10px 20px; 
+        font-size: 16px; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; /* Cambia el cursor al pasar el ratón */
+        text-decoration: none; /* Quita el subrayado del enlace dentro del botón */
+    }
+    
+    button:hover {
+        background-color: #e7f5a9; /* Cambia el color de fondo al pasar el ratón */
+    }
+  
+      .aside{
+        background: #f8f5df;
+        flex: 1 1 120%;
+        margin: 0%;
+      padding: 4px;
+      
+    }
+        .forma-apoyo{  
+          padding: 1%;
+        }
+  
+      
+      .opcion {
+          width: 100%;
+          box-sizing: border-box;
+          padding: 8px;
+      }
+      
+      .opcion h3, .opcion p {
+          margin-bottom: 10px;
+      }
+      .forma-apoyo h2{
+        color: #009ac6;
+      }
