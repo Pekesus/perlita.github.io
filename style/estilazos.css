@@ -185,3 +185,60 @@ display: flex;	/*uno a lado del otro*/
   height: 100%;
   object-fit: cover;
 }    
+
+
+@media screen and (max-width: 480px) {
+  .voluntariado{
+    display: block;
+    padding: 0%;
+    margin: 0%;
+  } 
+    .importancia-voluntariado{
+      display: block;
+      margin: 5% 0% 85% 0%;
+      padding: 0%;
+    } 
+      .importancia-voluntariado .imagen{
+        display: block;
+        margin: 5% 0% 5% 0%;
+      }
+      .importancia-voluntariado .texto{
+        display: block;
+        margin: 5% 0% 5% 0%;
+      }
+    .unete-voluntarios{
+      display: block;
+      margin: 5% 0% 145% 0%;
+    }
+      .unete-voluntarios .columnas{
+        display: block;
+      }
+      .columna {
+        display: block;
+      }
+      .columna img, h3, p{
+        display: block;
+      }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    .voluntariado{
+      display: flexbox;
+    } 
+      .importancia-voluntariado{
+        display: flex;
+        margin: 5% 0% 7% 0%;
+        padding: 0%;
+      } 
+      .unete-voluntarios{
+        flex-wrap: wrap;
+        margin: 5% 0% 35% 0%;
+      }
+        
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1680px) {
+    .voluntariado{
+      display: flexbox
+    }     
+  }
