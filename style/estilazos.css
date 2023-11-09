@@ -125,7 +125,6 @@ display: flex;	/*uno a lado del otro*/
 }
 
 .imagen{
-  background: #f8f5df;  
   flex: 1 1 40%;
   padding: 30px;
 }
