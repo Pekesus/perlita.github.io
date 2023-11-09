@@ -241,3 +241,46 @@ display: flex;	/*uno a lado del otro*/
       display: flexbox
     }     
   }
+
+
+  /*-----------------------NOSOTROS----------------------*/
+
+main {
+  max-width: 80%;
+  margin: 20px auto;
+  background-color: #f8f5df;
+}
+
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.descripcion {
+  text-align: center;
+  margin: 10%;
+}
+
+
+.mision-vision-valores {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30% 8% 2% 8%;
+}
+
+.mision, .vision, .valores {
+  flex: 1;
+  margin: 20px;
+  text-align: center;
+}
+.mision h2, .vision h2, .valores h2{
+  color: #009ac6;
+}
