@@ -7,7 +7,11 @@
     box-sizing: border-box;
 }
 
-
+main {
+    background-image: url('/img/textura5.png'); 
+    background-repeat: repeat; 
+    background-position: center;
+    }
 
 
 /************** MENU ******************/
@@ -251,7 +255,7 @@ p {
   }
   
   .card:hover:after {
-    background-image: url(img/logo.jpeg);
+    background-image: url(/img/logo.jpeg);
     height: 70%;
     content: "";
     opacity: 1;
@@ -352,6 +356,6 @@ p {
     background-size: cover;
  }
  .tiktok { 
-    background: url(img/tik\ tok.png);
+    background: url(img/tiktok.png);
     background-size: cover;
  }
