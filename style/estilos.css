@@ -79,30 +79,30 @@
         color: #009ac6;
       }
 
-      @media screen and (max-width: 800px) {
-        .seccion {
-          flex-direction: column;
-        }
-      
-        .articulos {
-          flex-direction: column;
-        }
-      
-        .article {
-          text-align: center; /* Centrar el texto en dispositivos de pantalla pequeña */
-        }
-      }
-      
-      /* Estilos para dispositivos con un ancho máximo de 600px */
-      @media screen and (max-width: 600px) {
-        .article {
-          font-size: 16px; /* Reducir el tamaño de fuente en dispositivos más pequeños si es necesario */
-        }
-      }
-      
-      /* Estilos para dispositivos con un ancho máximo de 400px */
-      @media screen and (max-width: 400px) {
-        .aside {
-          flex-direction: column;
-        }
-      }
+@media screen and (max-width: 800px) {
+.seccion {
+    flex-direction: column;
+}
+
+.articulos {
+    flex-direction: column;
+}
+
+.article {
+    text-align: center; /* Centrar el texto en dispositivos de pantalla pequeña */
+}
+}
+
+/* Estilos para dispositivos con un ancho máximo de 600px */
+@media screen and (max-width: 600px) {
+.article {
+    font-size: 16px; /* Reducir el tamaño de fuente en dispositivos más pequeños si es necesario */
+}
+}
+
+/* Estilos para dispositivos con un ancho máximo de 400px */
+@media screen and (max-width: 400px) {
+.aside {
+    flex-direction: column;
+}
+}
