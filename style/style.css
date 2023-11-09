@@ -192,4 +192,20 @@ section{
     }
 }
 
-
+/************ iconos redes ****************************/
+.facebook { 
+   background: url(/img/facebook.png);
+   background-size: cover;
+}
+.instagram { 
+    background: url(/img/instagram.png);
+    background-size: cover;
+ }
+ .twiter { 
+    background: url(/img/twiter.png);
+    background-size: cover;
+ }
+ .tiktok { 
+    background: url(/img/tik\ tok.png);
+    background-size: cover;
+ }
