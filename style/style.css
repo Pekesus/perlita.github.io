@@ -113,7 +113,13 @@ section{
     }
 }
 
-
+/****************** PORTADA ****************************/ 
+.txt {
+    color:  #d7d118 !important;
+    background-color:#009ac6;
+    border-radius: 15px;
+}
+        
 /****************** BODY **********************/
 
 .portadaPrincipal1 {
@@ -529,4 +535,9 @@ top: 30rem;
         margin-top: rem;
         width: 100%;
     }
+  }
+
+
+  .facebook, .twiter, .instagram, .tiktok {
+    border-radius: 10px;
   }
