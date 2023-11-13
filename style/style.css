@@ -119,7 +119,7 @@ section{
     background-color:#009ac6;
     border-radius: 15px;
 }
-        
+
 /****************** BODY **********************/
 
 .portadaPrincipal1 {
@@ -541,3 +541,9 @@ top: 30rem;
   .facebook, .twiter, .instagram, .tiktok {
     border-radius: 10px;
   }
+
+  section.gj.qp.gr.hj.rp.hr.presentacionBoby {
+    padding-top: 1px;
+    position: relative;
+    left: 15%;
+}
