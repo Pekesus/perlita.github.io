@@ -573,6 +573,7 @@ top: 30rem;
   }
 
   section#support {
+    MARGIN-BOTTOM: 0%;
     MARGIN-TOP: -10%;
 }
 
@@ -581,8 +582,22 @@ top: 30rem;
     POSITION: RELATIVE;
     MARGIN: -7%;
     PADDING: 0%;
+    bottom: -15%;
 }
 
-.button.vc.rg.lk.gh.ml.il.hi.gi._l:hover {
-    BACKGROUND-COLOR: #FF6F61;
+
+
+section#support {
+    height: 1200px;
+}
+
+section.pj.vp.mr.amigos {
+    margin-top: 9rem;
+    margin-bottom: 15rem;
+}
+.animate_top.bb.ze.rj.ki.xn.vq {
+    margin-top: 5rem !important;
+}
+.requisito {
+    margin-top: 48rem;
 }
