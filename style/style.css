@@ -547,3 +547,12 @@ top: 30rem;
     position: relative;
     left: 15%;
 }
+.footerLetras {
+    color: white !important;
+}
+
+.iconosFooter:hover {
+    opacity: 0.4;
+    transition: 1s; 
+    transform: scale(1.4) !important; 
+}
