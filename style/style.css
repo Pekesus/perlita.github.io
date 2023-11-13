@@ -344,7 +344,7 @@ p {
 
 /************ iconos redes ****************************/
 .facebook { 
-   background: url(img/facebook.jpg);
+   background: url(../img/facebook.jpg);
    background-size: cover;
 }
 .instagram { 
@@ -356,7 +356,7 @@ p {
     background-size: cover;
  }
  .tiktok { 
-    background: url(img/tik tok.jpg);
+    background: url(https://github.com/Pekesus/perlita.github.io/blob/main/img/tik%20tok.jpg);
     background-size: cover;
  }
 
