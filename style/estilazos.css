@@ -1,286 +1,323 @@
-.seccion{
-    display: flex;
-    margin: 0px;
-  padding: 0px;
-  }
-    .articulos{
-        margin: 10px;
-        flex: 2 1 auto;
-        display: flex;	/*uno a lado del otro*/
-        flex-flow: row wrap; 
-    }
-        .donacion{
-          background: #f8f5df;  
-          flex: 1 1 30%;
-          margin: 8px;
-          padding: 0px;
-        }
-            .donacion img{
-            width: 100%;
-            height: 100%;
-            }
-        .article{
-          background: #f8f5df;  
-            flex: 1 1 35%;
-            margin: 8px;
-          padding: 7px;
-        }
-        .article h2 {
-            font-size: 26px; 
-            color: #009ac6;
-        }
-        
-        .article p {
-            font-size: 18px; 
-        }
-  
-    button {
-        background-color: #a8ddf5; 
-        color: rgb(8, 8, 8); 
-        padding: 10px 20px; 
-        font-size: 16px; 
-        border: none; 
-        border-radius: 5px; 
-        cursor: pointer; /* Cambia el cursor al pasar el ratón */
-        text-decoration: none; /* Quita el subrayado del enlace dentro del botón */
-    }
-    
-    button:hover {
-        background-color: #e7f5a9; /* Cambia el color de fondo al pasar el ratón */
-    }
-  
-      .aside{
-        background: #f8f5df;
-        flex: 1 1 120%;
-        margin: 0%;
-      padding: 4px;
-      
-    }
-        .forma-apoyo{  
-          padding: 1%;
-        }
-  
-      
-      .opcion {
-          width: 100%;
-          box-sizing: border-box;
-          padding: 8px;
-      }
-      
-      .opcion h3, .opcion p {
-          margin-bottom: 10px;
-      }
-      .forma-apoyo h2{
-        color: #009ac6;
-      }
 
-      @media screen and (max-width: 800px) {
-        .seccion {
-          flex-direction: column;
-        }
-      
-        .articulos {
-          flex-direction: column;
-        }
-      
-        .article {
-          text-align: center; /* Centrar el texto en dispositivos de pantalla pequeña */
-        }
+.seccion{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+}
+  .articulos{
+      margin: 10px;
+      flex: 2 1 auto;
+      display: flex;	/*uno a lado del otro*/
+      flex-flow: row wrap; 
+  }
+      .donacion{
+        
+        flex: 1 1 30%;
+        margin: 8px;
+        padding: 1px;
+      }
+          .donacion img{
+          width: 100%;
+          }
+      .article{
+        
+          flex: 1 1 35%;
+          margin: 8px;
+        padding: 30px;
+      }
+      .article h2 {
+          font-size: 26px; 
+          color: #009ac6;
       }
       
-      /* Estilos para dispositivos con un ancho máximo de 600px */
-      @media screen and (max-width: 600px) {
-        .article {
-          font-size: 16px; /* Reducir el tamaño de fuente en dispositivos más pequeños si es necesario */
-        }
+      .article p {
+          font-size: 18px;
+          text-align: justify; 
       }
       
-      /* Estilos para dispositivos con un ancho máximo de 400px */
-      @media screen and (max-width: 400px) {
-        .aside {
-          flex-direction: column;
-        }
+    .aside{
+      margin: 1%;
+      padding: 4px;
+      margin-bottom: 3%;
+  }
+  
+      .forma-apoyo{  
+        padding: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
       }
-      
+      .aside h3{
+        text-align: center;
+        font-size: 40px;
+      }
+      .aside h2{
+        text-align: center;
+      }
     
+        .opcion img {
+            max-width: 70%; /* Ajusta el ancho máximo de la imagen */
+            height: 85%;
+            margin: 10px; /* Agrega espacio entre la imagen y el párrafo */
+        }
+  
+      .opcion {
+          flex: 1 1 30%; /* Establece un ancho fijo para cada opción */
+          flex-direction: column;
+          
+          align-items: center;
+          margin-right: 10px; /* Agrega espacio entre las opciones */
+      }
+          .opcion p{
+            text-align: justify;
+            padding: 4%;
+          }
+      
+      .imagen-redondeada {
+        border-radius: 40px; /* Redondea las esquinas superior izquierda, superior derecha, inferior derecha, e inferior izquierda respectivamente */
+    }
+    
+    .forma-apoyo h2{
+      color: #009ac6;
+      text-align: center;
+    }
+    .forma-apoyar h3{
+      color: #009ac6;
+      text-align: center;
+    }
+
+
+    .seccion-imagen {
+      text-align: center; /* Centra el texto e imágenes horizontalmente */
+      margin-top: 20px; /* Espacio entre el contenido superior e inferior, ajusta según sea necesario */
+  }
+  
+  /* Estilos adicionales si lo necesitas */
+  .seccion-imagen h4 {
+      font-size: 25px; /* Ajusta el tamaño del texto según sea necesario */
+  }
+
+    .imagen-movible {
+      width: 35%; /* Reducir el tamaño al 80% del contenedor */
+      animation: moverArribaAbajo 2s infinite alternate; /* Nombre de la animación, duración, repetición e intercalación */
+  }
+  
+  @keyframes moverArribaAbajo {
+  0% {
+      transform: translateY(0); /* Inicio de la animación: posición original */
+  }
+  100% {
+      transform: translateY(20px); /* Fin de la animación: mueve hacia abajo 20px */
+  }
+  }
+
+
+
+    @media screen and (max-width: 800px) {
+      .seccion {
+        flex-direction: column;
+      }
+    
+      .articulos {
+        flex-direction: column;
+      }
+    
+      .article {
+        text-align: center; /* Centrar el texto en dispositivos de pantalla pequeña */
+      }
+    }
+    
+    /* Estilos para dispositivos con un ancho máximo de 600px */
+    @media screen and (max-width: 600px) {
+      .article {
+        font-size: 16px; /* Reducir el tamaño de fuente en dispositivos más pequeños si es necesario */
+        flex-direction: column;
+      }
+    }
+    
+    /* Estilos para dispositivos con un ancho máximo de 400px */
+    @media screen and (max-width: 400px) {
+      .aside {
+        flex-direction: column;
+      }
+      .opcion {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+    .forma-apoyo{
+      flex-direction: column;
+    }
+    }
+    
+  
+  
+  
 /***************************VOLUNTARIADO**************************/
 .voluntariado {
-  max-width: 100%;
-  padding: 8px; /* Ajusta el relleno según sea necesario */
-  box-sizing: border-box;
+max-width: 100%;
+padding: 8px; /* Ajusta el relleno según sea necesario */
+box-sizing: border-box;
 }
 
 /* Estilos para la sección de importancia del voluntariado */
 .importancia-voluntariado {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
 }
 
 .importancia-voluntariado .imagen {
-
 display: flex;	/*uno a lado del otro*/
-
 }
 
 .imagen{
-  flex: 1 1 40%;
-  padding: 30px;
+flex: 1 1 40%;
+padding: 30px;
 }
-    .imagen img{
-      width: 100%;
-    height: 100%;
-    }
+  .imagen img{
+    width: 100%;
+  height: 100%;
+  }
 
 .texto{
-  background: #f8f5df;  
-    flex: 1 1 60%;
-    margin: 3px;
-    padding: 40px;
+background: #d7eeec;  
+  flex: 1 1 60%;
+  margin: 3px;
+  padding: 40px;
 }
 .texto h2 {
-    font-size: 26px; 
+  font-size: 26px; 
 }
 
 .texto p {
-    font-size: 18px; 
+  font-size: 18px; 
+  text-align: justify;
 }
 
 
 .importancia-voluntariado h2,h3 {
-  color: #009ac6;
+color: #009ac6;
 }
 
 /* Columnas */
 .unete-voluntarios {
-  background: #f8f5df;
-  margin-bottom: 120px; /* margen inferior */
-  text-align: center;
-  padding: 10px;    
+
+margin-bottom: 305px; /* margen inferior */
+text-align: center;
+padding: 10px;    
 }
 
 .unete-voluntarios h2 {
-  color: #009ac6;
+color: #009ac6;
+font-size: 45px;
 }
 
 .columnas {
-  margin-bottom: 25px; /* espacio entre columnas */
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 10x;
+margin-bottom: 25px; /* espacio entre columnas */
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+padding: 10x;
+
 }
 
 .columna {
-  flex: 1;
-  text-align: center;
-  padding: 8px;
+flex: 1;
+text-align: center;
+padding: 8px;
+margin: 2%;
 }
 
 .columna img {
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
+max-width: 100%;
+height: 100%;
+object-fit: cover;
+margin: 1%;
+margin-bottom: 4%;
 }    
+  .columna p{
+    text-align: justify;
+  }
+
+
 
 
 @media screen and (max-width: 480px) {
-  .voluntariado{
+.voluntariado{
+  display: block;
+  padding: 0%;
+  margin: 0%;
+} 
+  .importancia-voluntariado{
     display: block;
+    margin: 5% 0% 175% 0%;
     padding: 0%;
-    margin: 0%;
+  } 
+    .importancia-voluntariado .imagen{
+      display: block;
+      margin: 5% 0% 5% 0%;
+    }
+    .importancia-voluntariado .texto{
+      display: block;
+      margin: 5% 0% 5% 0%;
+      text-align: justify;
+    }
+  .unete-voluntarios{
+    display: block;
+    margin: 5% 0% 345% 0%;
+  }
+    .unete-voluntarios .columnas{
+      display: block;
+    }
+    .columna {
+      display: block;
+      margin: 8%;
+    }
+    .columna img, h3, p{
+      display: block;
+      text-align: justify;
+    }
+    .imagen-movible{
+      width: 70%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .voluntariado{
+    display: flexbox;
   } 
     .importancia-voluntariado{
-      display: block;
-      margin: 5% 0% 85% 0%;
+      display: flex;
+      margin: 5% 0% 17% 0%;
       padding: 0%;
     } 
-      .importancia-voluntariado .imagen{
-        display: block;
-        margin: 5% 0% 5% 0%;
-      }
-      .importancia-voluntariado .texto{
-        display: block;
-        margin: 5% 0% 5% 0%;
-      }
+        .importancia-voluntariado .imagen{
+          display: 1 1 ;
+          flex-direction: column;
+          margin: 5% 0% 5% 0%;
+        }
+        .importancia-voluntariado .texto{
+          display: block;
+          margin: 5% 0% 5% 0%;
+        }
+
     .unete-voluntarios{
-      display: block;
-      margin: 5% 0% 145% 0%;
+      flex-wrap: wrap;
+      margin: 5% 0% 45% 0%;
     }
-      .unete-voluntarios .columnas{
-        display: block;
-      }
-      .columna {
-        display: block;
-      }
-      .columna img, h3, p{
-        display: block;
-      }
-  }
-  
-  @media screen and (min-width: 481px) and (max-width: 1024px) {
-    .voluntariado{
-      display: flexbox;
-    } 
-      .importancia-voluntariado{
-        display: flex;
-        margin: 5% 0% 7% 0%;
-        padding: 0%;
-      } 
-      .unete-voluntarios{
-        flex-wrap: wrap;
-        margin: 5% 0% 35% 0%;
-      }
-        
-  }
-  
-  @media screen and (min-width: 1025px) and (max-width: 1680px) {
-    .voluntariado{
-      display: flexbox
-    }     
-  }
+      
+}
 
-
-  /*-----------------------NOSOTROS----------------------*/
-
-main {
-  max-width: 80%;
-  margin: 20px auto;
-  background-color: #f8f5df;
+@media screen and (min-width: 1025px) and (max-width: 1680px) {
+  .voluntariado{
+    display: flexbox
+  }     
 }
 
 
-.video-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.video-container {
-  width: 100%;
-  max-width: 800px;
-}
-
-.descripcion {
-  text-align: center;
-  margin: 10%;
-}
-
-
-.mision-vision-valores {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 30% 8% 2% 8%;
-}
-
-.mision, .vision, .valores {
-  flex: 1;
-  margin: 20px;
-  text-align: center;
-}
-.mision h2, .vision h2, .valores h2{
-  color: #009ac6;
-}
