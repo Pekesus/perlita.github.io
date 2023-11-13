@@ -2583,3 +2583,16 @@ h1,  h2,  h3,  h4,  h5,  h6{
   }
 }
 
+.adopta {
+  border-radius: 20px !important;
+}
+.adopta:hover {
+  opacity: 0.8;
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+section.ji.gp.uq.\32 xl\:ud-py-35.pg {
+  width: 100%;
+  padding: 30px;
+}
