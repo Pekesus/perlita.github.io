@@ -7,11 +7,11 @@
     box-sizing: border-box;
 }
 
-main {
-    background-image: url(img/textura5.jpg); 
+/*main {
+    background-image: url(/img/textura5.jpg); 
     background-repeat: repeat; 
     background-position: center;
-    }
+    }*/
 
 
 /************** MENU ******************/
@@ -113,12 +113,6 @@ section{
     }
 }
 
-/****************** PORTADA  ****************************/ 
-.txt {
-    color:  #d7d118 !important;
-    background-color:#009ac6;
-    border-radius: 15px;
-}
 
 /****************** BODY **********************/
 
@@ -184,7 +178,7 @@ p {
 
 
 /*********************** CARDS *******************************************/
-
+/*
 .texto {
     text-align: center;
 }
@@ -263,7 +257,7 @@ p {
     color: white;
   }
 
-
+*/
 
 /****************** FOOTER *********************/
 
@@ -504,7 +498,21 @@ p {
     align-items: center;
 }
     */
+.requisito {
 
-    .adopta {
-        border-radius: 20px !important;
-      }
+    margin-top: 25rem;
+    width: 100%;
+
+}
+
+.vp {
+    padding-top: 6.25rem;
+}
+
+@media screen and (min-width: 1300px) {
+    .requisito {
+
+        margin-top: 35rem;
+        width: 100%;
+    }
+  }
