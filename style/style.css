@@ -338,19 +338,19 @@ p {
 
 /************ iconos redes ****************************/
 .facebook { 
-   background: url(img/facebook.jpg);
+   background: url(/img/facebook.jpg);
    background-size: cover;
 }
 .instagram { 
-    background: url(img/instagram.jpg);
+    background: url(/img/instagram.jpg);
     background-size: cover;
  }
  .twiter { 
-    background: url(img/twiter.jpg);
+    background: url(/img/twiter.jpg);
     background-size: cover;
  }
  .tiktok { 
-    background: url(img/tik\ tok.jpg);
+    background: url(/img/tik\ tok.jpg);
     background-size: cover;
  }
 
