@@ -92,12 +92,12 @@
       
       .imagen-clic h4 {
           text-align: center;
-          font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+          font-size: 20px; 
       }
     
         .imagen-movible {
           margin: 0% 7% 0% 38%;
-          width: 20%; /* Reducir el tamaño al 80% del contenedor */
+          width: 20%; 
           animation: moverArribaAbajo 2s infinite alternate; /* Nombre de la animación, duración, repetición e intercalación */
       }
   
