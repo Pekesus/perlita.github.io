@@ -52,19 +52,19 @@ class="g s r vd ya cj"
   >
     <nav>
       <ul class="tc _o sf yo cg ep">
-        <li><a href="index.html" class="xl" :class="{ 'mk': page === 'home' }">Inicio</a></li>
-        <li><a href="adopta.html" class="xl">Adopta</a></li>
+        <li><a href="index.html" class="xl none" :class="{ 'mk': page === 'home' }">Inicio</a></li>
+        <li><a href="adopta.html" class="xl none">Adopta</a></li>
         <li class="c i" x-data="{ dropdown: false }">
           <a
             href="apoya.html"
-            class="xl tc wf yf bg">
+            class="xl tc wf yf bg none">
             Apoya
           </a>
 
         
           <!-- Dropdown End -->
         </li>
-        <li><a href="voluntario.html" class="xl">Voluntariado</a></li>
+        <li><a href="voluntario.html" class="xl none">Voluntariado</a></li>
       </ul>
     </nav>
 
@@ -81,9 +81,7 @@ class="g s r vd ya cj"
         </label>
       </div>
 
-      <a href="signin.html" :class="{ 'nk yl' : page === 'home', 'ok' : page === 'home' && stickyMenu }" class="ek pk xl">Sign In</a>
-      <a href="signup.html" :class="{ 'hh/[0.15]' : page === 'home', 'sh' : page === 'home' && stickyMenu }" class="lk gh dk rg tc wf xf _l gi hi">Sign Up</a>
-    </div>
+        </div>
   </div>
 </div>
 </header>

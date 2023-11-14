@@ -642,3 +642,23 @@ section.ji.gp.uq.\32 xl\:ud-py-35.pg {
 div a img { /*bordes de imagenes amigos*/
     border-radius: 10px;
 }
+
+.none {
+    text-decoration: none;
+    
+}
+
+/**************** IMAGENES **********************/
+img.bf {
+    height: 100%;
+    width: 339px;
+}
+
+.logoVoluntariado {
+    width: 1rem;
+}
+
+section.section.portadaPrincipal1 { /*fotos voluntarios*/
+    position: relative;
+    left: 10rem;
+}
