@@ -111,7 +111,7 @@
   }
 
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1060px) {
       .seccion {
         flex-direction: column;
       }
@@ -125,16 +125,30 @@
       }
     }
     
-    /* Estilos para dispositivos con un ancho máximo de 600px */
-    @media screen and (max-width: 600px) {
+    
+    @media screen and (max-width: 680px) {
       .article {
         font-size: 16px; /* Reducir el tamaño de fuente en dispositivos más pequeños si es necesario */
         flex-direction: column;
       }
+      .imagen-movible {
+        margin: 0% 7% 0% 30%;
+        width: 50%; /* Reducir el tamaño al 80% del contenedor */
+        animation: moverArribaAbajo 2s infinite alternate; /* Nombre de la animación, duración, repetición e intercalación */
+    }
     }
     
-    /* Estilos para dispositivos con un ancho máximo de 400px */
-    @media screen and (max-width: 400px) {
+    
+    @media screen and (max-width: 480px) {
+      .principalconten {
+        margin-top: 35% ;
+        max-width: 100%;
+      }
+        .principalconten img{
+          max-width: 100%;
+        }
+      
+      
       .aside {
         flex-direction: column;
       }
@@ -145,7 +159,12 @@
     }
     .forma-apoyo{
       flex-direction: column;
+    
     }
+    .imagen-movible {
+      margin: 0% 7% 0% 16%;
+      animation: moverArribaAbajo 2s infinite alternate; /* Nombre de la animación, duración, repetición e intercalación */
+  }
     }
     
   
@@ -298,6 +317,15 @@ margin: 1%;
     }
     .imagen-movible{
       width: 70%;
+    }
+
+    .requisitos-voluntario {
+      max-width: 300px; 
+      margin: 0 auto; /* Centrar */
+      margin-bottom: 15%;
+      background-image: url('img/textura5.jpg');
+      background-size: cover; 
+      background-position: center; 
     }
 }
 
