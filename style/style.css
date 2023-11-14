@@ -7,6 +7,15 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&family=Londrina+Solid:wght@900&display=swap');
+div h4 {
+    font-family: 'Lobster Two';
+    font-size: 30px;
+}
+
+
+
+
 /*main {
     background-image: url(/img/textura5.jpg); 
     background-repeat: repeat; 
@@ -15,6 +24,7 @@
 
 
 /************** MENU ******************/
+/*
 nav{
     background: #009ac6;
     height: 80px;
@@ -112,16 +122,17 @@ section{
         left:0;
     }
 }
-
+*/
 /****************** PORTADA ****************************/ 
+/*
 .txt {
     color:  #d7d118 !important;
     background-color:#009ac6;
     border-radius: 15px;
 }
-
+*/
 /****************** BODY **********************/
-
+/*
 .portadaPrincipal1 {
     width:100%; 
     height:auto !important; 
@@ -132,7 +143,7 @@ section{
     margin: 0px;
 }
 
-*/
+
 main {
     display: grid;
     grid-template-columns: 1fr; 
@@ -180,6 +191,7 @@ p {
     justify-content: center;
     gap: 50px;
 }
+
 
 
 
@@ -264,6 +276,27 @@ p {
   }
 
 */
+/***************menu*****************/
+.logoalbergue {
+    border-radius: 20px;
+}
+
+section.ji.gp.uq.\32 xl\:ud-py-35.pg { /*margen a top del la portada adopta*/
+    margin-top: 9rem;
+}
+
+header.g.s.r.vd.ya.cj { /*menu paddind izquierda*/
+    padding-left: 3rem;
+}
+
+.letrasAlbergue {
+    color: #0783ff;
+}
+
+img.w-full {   /*bordes de fotos de cartas*/
+    border-radius: 20px;
+}   
+
 
 /****************** FOOTER *********************/
 
@@ -604,4 +637,8 @@ section.pj.vp.mr.amigos {
 
 section.ji.gp.uq.\32 xl\:ud-py-35.pg {
     height: 44rem;
+}
+
+div a img { /*bordes de imagenes amigos*/
+    border-radius: 10px;
 }
