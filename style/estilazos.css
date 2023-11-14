@@ -203,7 +203,7 @@ display: flex;	/*uno a lado del otro*/
 
 
 .importancia-voluntariado h2,h3 {
-color: #009ac6;
+  color: black; 
 }
 
 .unete-voluntarios {
@@ -215,7 +215,7 @@ padding: 10px;
 }
 
 .unete-voluntarios h2 {
-color: #009ac6;
+  color: black; 
 font-size: 25px;
 }
 
@@ -233,7 +233,7 @@ padding: 10x;
 flex: 1;
 text-align: center;
 padding: 8px;
-margin: 2%;
+margin: 1%;
 }
 
 .columna img {
@@ -250,23 +250,24 @@ margin: 2%;
     .requisitos-voluntario {
       max-width: 600px; 
       margin: 0 auto; /* Centrar */
-      background-image: url('img/textura5');
+      margin-bottom: 15%;
+      background-image: url('img/textura5.jpg');
       background-size: cover; 
       background-position: center; 
-      padding: 20px; 
     }
 
     .requisitos-voluntario h2 {
       text-align: center; 
-      color: #009ac6; 
+      color: black; 
       font-size: 23px;
     }
 
     .requisitos-voluntario ul {
-      list-style-type: circle;
+      text-align: justify;
     }
 
     .requisitos-voluntario li {
+      list-style-type: disc;
       margin-bottom: 10px; /* Espaciado entre elementos de la lista */
       line-height: 1.5; /* Altura de línea para una mejor legibilidad */
     }
@@ -295,7 +296,7 @@ margin: 2%;
     }
   .unete-voluntarios{
     display: block;
-    margin: 5% 0% 345% 0%;
+    margin: 0% 0% 345% 0%;
   }
     .unete-voluntarios .columnas{
       display: block;
